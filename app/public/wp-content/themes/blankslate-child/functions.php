@@ -9,6 +9,15 @@ function theme_enqueue_styles()
     //    wp_enqueue_style('parent-style', get_parent_theme_file_uri() . 'style.css'); 
 
     wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/css/theme.css', array(), filemtime(get_stylesheet_directory() . '/css/theme.css'));
+
+    /** home-page.css */
+    wp_enqueue_style('home-page-style', get_stylesheet_directory_uri() . '/css/home-page.css', array(), filemtime(get_stylesheet_directory() . '/css/home-page.css'));
+
+    /** rencontre.css */
+    wp_enqueue_style('rencontrer-style', get_stylesheet_directory_uri() . '/css/rencontrer.css', array(), filemtime(get_stylesheet_directory() . '/css/rencontrer.css'));
+
+    /** commander.css */
+    wp_enqueue_style('commander-style', get_stylesheet_directory_uri() . '/css/commander.css', array(), filemtime(get_stylesheet_directory() . '/css/commander.css'));
 }
 
 
