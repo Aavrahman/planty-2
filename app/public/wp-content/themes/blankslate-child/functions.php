@@ -33,3 +33,7 @@ function register_footer_menu()
 }
 add_action('init', 'register_footer_menu');
 
+
+/** ** ** ** ** ** * IMPORT DES SHORT CODES ** ** ** ** ** **/
+require_once(__DIR__ . '/shortcodes/shortcodes.php');
+
