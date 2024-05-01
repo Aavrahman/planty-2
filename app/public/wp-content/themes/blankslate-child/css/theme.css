@@ -420,7 +420,6 @@ input[type="submit"] {
     border-radius: 5px;
     background: var(--cta-button-color);
     color: var(--body-bg-color);
-    text-align: var(--parag-text-align);
     font-size: var(--cta-font-size);
     font-style: var(--parag-font-style);
     font-weight: var(--parag-font-weight);

@@ -527,3 +527,11 @@ hr {
         margin-left: 25%;
     }
 }
+
+#wpcf7-f462-p61-o1 .wpcf7-form p {
+    width: 100%;
+    height: 3.5rem;
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--commander-bg-title-color);
+}
