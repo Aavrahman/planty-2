@@ -10,3 +10,26 @@ function theme_enqueue_styles()
 
     wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/css/theme.css', array(), filemtime(get_stylesheet_directory() . '/css/theme.css'));
 }
+
+
+/* ** ** ** ** ** * ENREGISTREMENT DE MENUS * ** ** ** ** **//*
+function register_header_menu()
+{
+    register_nav_menu('header_menu', __('Main Menu'));
+}
+add_action('init', 'register_header_menu');
+/* --- */
+
+function register_visitor_menu()
+{
+    register_nav_menu('visiteur', __('Main Menu'));
+}
+add_action('init', 'register_visitor_menu');
+/* --- */
+
+function register_footer_menu()
+{
+    register_nav_menu('footer_menu', __('Footer'));
+}
+add_action('init', 'register_footer_menu');
+
