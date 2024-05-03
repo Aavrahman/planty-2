@@ -290,13 +290,13 @@ body {
 }
 
 .menu-item-213,
+.menu-item-214,
 .menu-item-215 {
-    width: 50%;
+    width: 33.33ù%;
     display: var(--display-flex);
     justify-content: center;
 }
 
-.menu-item-155,
 .menu-item-215 {
     width: 45.73%;               /* 236px; */
     height: 5rem;
