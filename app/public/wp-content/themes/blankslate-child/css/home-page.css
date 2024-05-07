@@ -219,7 +219,7 @@
 #accueil-presentation {
   width: 100%;           /* 1440 */
   height: 25.938rem;     /*415px; */
-  background-image: url('http://planty.local/wp-content/uploads/2024/04/svg-1.png');
+  background-image: url('http://planty-2.local/wp-content/uploads/2024/04/svg-1.png');
   background-size: 100%;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -470,7 +470,7 @@ div.entry-content>div:nth-child(8) {
   width: 100%;
   height: 39.875rem; /* 638px;  */
 
-  background-image: url("http://planty.local/wp-content/uploads/2024/04/svg2.png");
+  background-image: url("http://planty-2.local/wp-content/uploads/2024/04/svg2.png");
   background-size: 100%;
   background-repeat: no-repeat;
   object-fit: cover;
