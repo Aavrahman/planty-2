@@ -15,7 +15,7 @@ function accueil_bloc_titre($atts)          //* Affichage bloc superieur page  a
 
     ob_start();                             // Sauvegarde en mémoire de données (vars et/ou txt) qui suivent
     if ($atts['src'] != "") {
-    ?>
+?>
         <div class="titre-et-image">
             <img src=" <?= $atts['src'] ?>)" alt="Canette Planty">
         </div>
@@ -44,10 +44,10 @@ function accueil_bloc2_developpement($atts)     // 'Energie des plantes + pargra
 
     ob_start();
     ?>
-        <div id="accueil-presentation">
-            <h2 class="accueil-presentation-h2"> <?= $atts['titre'] ?> </h2>
-            <p class="accueil-presentation-p"> <?= $atts['parag'] ?> </p>
-        </div>
+    <div id="accueil-presentation">
+        <h2 class="accueil-presentation-h2"> <?= $atts['titre'] ?> </h2>
+        <p class="accueil-presentation-p"> <?= $atts['parag'] ?> </p>
+    </div>
     <?php
     $output = ob_get_contents();
     ob_end_clean();
@@ -100,9 +100,11 @@ function buttons($atts)
 
     ob_start();
     ?>
-        <div class="button-box">
-            <p class="button-text"><?= $atts['label'] ?></p>
-        </div>
+    <div class="button-box">
+        <p class="button-text">
+            <a href="http://planty-2.local/commander/"> <?= $atts['label'] ?> </a>
+        </p>
+    </div>
     <?php
     $output = ob_get_contents();
     ob_end_clean();
@@ -239,7 +241,7 @@ function corbeille($atts)
                 <p class="validation-typo"> OK </p>
             </div>
         </div>
-    <?php
+<?php
     }
     $output = ob_get_contents();
     ob_end_clean();

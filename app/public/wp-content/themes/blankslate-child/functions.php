@@ -41,11 +41,10 @@ function admin_link($items, $args)
 {
     if (is_user_logged_in() && $args->theme_location == 'visiteur') {
         $admin_link = "<li id='menu-item-214' class='menu-item menu-item-type-post_type menu-item-object-page'>
-                            <a hraf='" . admin_url() . "'> 
+                            <a href='" . admin_url() . "'> 
                                 <span itemprop='name'> Admin </span>
                             </a>     
                         </li>";
-
         $li_array = array();
         while(false !== ($pos = strpos($items, '<li', 3))) {
             $li_array[] = substr($items, 0, $pos);
@@ -63,3 +62,28 @@ add_filter('wp_nav_menu_items', 'admin_link', 10, 2);
 /** ** ** ** ** ** * IMPORT DES SHORT CODES ** ** ** ** ** **/
 require_once(__DIR__ . '/shortcodes/shortcodes.php');
 
+
+
+
+/* ** ** ** ** ** * AFFICHAGE DIFFERENTIEL DU MENU PRINCIPAL * ** ** ** ** **/
+/*
+function admin_link($items, $args)
+{
+    if (is_user_logged_in() && $args->theme_location == 'visiteur') {
+        $admin_link = "<li id='menu-item-214' class='menu-item menu-item-type-post_type menu-item-object-page'>
+                            <a hraf='" . admin_url() . "'> 
+                                <span itemprop='name'> Admin </span>
+                            </a>     
+                        </li>";
+        $li_array = array();
+        while (false !== ($pos = strpos($items, '<li', 3))) {
+            $li_array[] = substr($items, 0, $pos);
+            $items = substr($items, $pos);
+        }
+        $li_array[] = $items;
+        array_splice($li_array, 1, 0, $admin_link);
+        $items = implode('', $li_array);
+    }
+    return $items;
+}
+add_filter('wp_nav_menu_items', 'admin_link', 10, 2);   */

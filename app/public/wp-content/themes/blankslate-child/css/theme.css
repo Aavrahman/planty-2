@@ -292,7 +292,7 @@ body {
 .menu-item-213,
 .menu-item-214,
 .menu-item-215 {
-    width: 33.33ù%;
+    width: 33.33%;
     display: var(--display-flex);
     justify-content: center;
 }
@@ -320,7 +320,7 @@ body {
     }
 }
 
-.menu-item-155 a,
+.menu-item-213 a,
 .menu-item-215 a {
     width: 100%;                 /* 236px; */
 }
@@ -330,8 +330,10 @@ body {
     color: var(--body-bg-color);
 }
 
-.menu-item-155:hover, .menu-item-155:hover a span,
-.menu-item-215:hover, .menu-item-212:hover a span {
+/* Changement couleur background menu 'Commander' et boutons */
+.button-box .button-text:hover,
+.wpcf7-submit:hover,
+.menu-item-215:hover {
     background-color: var(--menu-commander-hover-color);
 }
 
@@ -379,8 +381,6 @@ p {
 
 /* --- --- --- --- --- --- --- F O O T E R --- --- --- --- --- --- --- */
 #footer {
-    position: sticky;
-    bottom: 0px;
     height: 3.75rem;            /* 60px */
     background-color: var(--body-bg-color);
 }
@@ -392,8 +392,18 @@ p {
 }
 
 /* --- --- --- --- --- --- --- -- C T A --- --- --- --- --- --- --- --- */
-.button-text:hover {
-    background-color: var(--menu-commander-hover-color);
+
+/* le bouton dirigeant vers page 'Commander' */
+.button-box .button-text,
+input[type="submit"] {    /* theme.css:415 */
+    background: var(--cta-button-color);
+    color: var(--body-bg-color);
+    font-size: var(--cta-font-size);
+    font-style: var(--parag-font-style);
+    font-weight: var(--parag-font-weight);
+    line-height: var(--cta-line-height);
+
+    border: 0 solid rgba(0, 0, 0, 0);
 }
 
 .button-text {
@@ -402,31 +412,25 @@ p {
     padding: 9px 57px 9px 56px;
 
     border-radius: 5px;
-    background: var(--cta-button-color);
 
-    color: var(--body-bg-color);
     text-align: var(--parag-text-align);
-    font-size: var(--cta-font-size);
-    font-style: var(--parag-font-style);
-    font-weight: var(--parag-font-weight);
-    line-height: var(--cta-line-height);
 }
 
+.button-text a {
+    text-decoration: none;
+    color: var(--body-bg-color);
+}
+
+/* Les boutons des formulaires */
 input[type="submit"] {
     display: block;
     width: 198px;
     height: 55px;
     padding: 9px 57px 9px 56px;
     border-radius: 5px;
-    background: var(--cta-button-color);
-    color: var(--body-bg-color);
-    font-size: var(--cta-font-size);
-    font-style: var(--parag-font-style);
-    font-weight: var(--parag-font-weight);
-    line-height: var(--cta-line-height);
 }
 
-.button-text:hover,
-.wpcf7-submit:hover {
-    background-color: var(--menu-commander-hover-color);
+#wpcf7-f76-p79-o1>form p:nth-child(5) {
+    display: var(--display-flex);
+    justify-content: center;
 }

@@ -387,19 +387,9 @@
   height: 16rem; /* 273px; */
 }
 
-.wpcf7-form p input.wpcf7-submit {
-  margin-left: 41.31rem; /* 621px; */
-  margin-right: 41.31rem;  /* 621px; */
-}
-
 .wpcf7-form p .wpcf7-spinner, .wpcf7-form::before {
   width: 0rem;
   margin: 0rem;
-}
-
-#wpcf7-f76-p79-o1 > form p:nth-child(5) {
-  display: var(--display-flex);
-  justify-content: var(--justify-around);
 }
 
 @media (min-width: 320px) and (max-width: 781.99px) {
