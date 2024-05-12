@@ -38,7 +38,6 @@
             <?php
                 wp_nav_menu(
                     array(
-    /*                  'theme_location' => 'Main Menu',    */
                         'theme_location' => 'visiteur',
                         'link_before' => '<span itemprop="name">',
                         'link_after' => '</span>'

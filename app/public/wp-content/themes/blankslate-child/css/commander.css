@@ -88,7 +88,7 @@ hr {
 @media (min-width: 320px) and (max-width: 781.99px) {
     .commander h2.wp-block-heading:nth-of-type(1) {
         top: 12.5rem;
-        left: 4%;
+        left: 7%;
         width: 92%;
         font-size: var(--mobile-h2-font-size);
     }
@@ -116,8 +116,8 @@ hr {
 @media (min-width: 320px) and (max-width: 781.99px) {
     #post-61 .wp-container-core-columns-is-layout-1 {
         top: 16rem;
-        left: 2%;
-        width: 96%;
+        left: 5%;
+        width: 90%;
         height: 35%;
     }
 }
@@ -386,8 +386,8 @@ hr {
 @media (min-width: 320px) and (max-width: 781.99px) {
     #wpcf7-f462-p61-o1 {
         top: 85.31rem;  /* 1365px;  */
-        left: 4%;
-        width: 92%;
+        left: 5%;
+        width: 90%;
         height: 71.25rem;   /* 1140px;  */
     }
 }
