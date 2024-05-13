@@ -76,6 +76,7 @@ hr {
     font-style: var(--parag-font-style);
     font-weight: 700;
     line-height: normal;
+    width: auto;
 }
 
 @media (min-width: 782px) and (max-width: 1439.99px) {
@@ -516,9 +517,7 @@ hr {
 /* --- --- --- --- --- --- Le bouton submit --- --- --- --- --- --- */
 @media (min-width: 320px) and (max-width: 781.99px) {
     #post-61 input[value="Commander"] {
-        margin-left: 25%;
-        width: 50%;
-        margin-left: 25%;
+        width: 100%;
     }
 }
 
@@ -533,4 +532,12 @@ hr {
 
 #post-61 input[value="Commander"] {
     position: absolute;
+}
+
+/* -- La réponse au click sur 'Commander' -- */
+@media (min-width: 320px) and (max-width: 781.99px) {
+    .wpcf7 form .wpcf7-response-output {
+        position: relative;
+        top: 70rem;
+    }
 }

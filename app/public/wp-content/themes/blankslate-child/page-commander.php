@@ -10,7 +10,7 @@
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 
-            <div class="commander" class=" entry-content" itemprop="mainContentOfPage">
+            <div class="commander">
                 <?php if (has_post_thumbnail()) {
                     the_post_thumbnail('full', array('itemprop' => 'image'));
                 } ?>
