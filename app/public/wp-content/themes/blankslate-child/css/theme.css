@@ -399,6 +399,11 @@ p {
     align-items: var(--align-center);
 }
 
+#footer .menu-item {
+    width: auto;
+    height: 3.75rem;
+}
+
 /* --- --- --- --- --- --- --- -- C T A --- --- --- --- --- --- --- --- */
 
 /* le bouton dirigeant vers page 'Commander' */

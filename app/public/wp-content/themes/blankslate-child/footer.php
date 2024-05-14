@@ -8,8 +8,7 @@
                     wp_nav_menu(
                         array(
 
-                            'theme_location' => 'footer_menu',  /*
-                            'theme_location' => 'Footer',  */
+                            'theme_location' => 'footer_menu',
                             'link_before' => '<span itemprop="name">',
                             'link_after' => '</span>'
                         )

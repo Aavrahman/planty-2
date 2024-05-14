@@ -63,8 +63,8 @@
 
 @media (min-width: 782px) and (max-width: 1439.99px) {
   .wp-block-image:nth-child(1) .wp-image-574 {
-    top: 8rem;
-    left: 49%;
+    top: 7rem;
+    left: 79%;
     width: 20%;
     height: auto;
   }
@@ -95,7 +95,7 @@
 
 @media (min-width: 320px) and (max-width: 781.99px) {
   .rencontrer h1 {
-    top: 3rem;
+    top: 1.5rem;
   }
 }
 
@@ -117,7 +117,7 @@
 
 @media (min-width: 320px) and (max-width: 781.99px) {
   .rencontrer>p:nth-child(3) {
-    top: 7rem;
+    top: 5.6rem;
     left: 0%;
     width: 100%;
   }
@@ -146,8 +146,8 @@
 
 @media (min-width: 320px) and (max-width: 781.99px) {
   #post-79 .rencontrer .wp-block-columns:nth-child(4) {
-    top: 15.5rem;
-    height: 49rem;
+    top: 14.5rem;
+    height: 50rem;
     background-color: var(--body-bg-color);
   }
 }
@@ -168,7 +168,7 @@
 
 @media (min-width: 320px) and (max-width: 781.99px) {
   .rencontrer>h2.wp-block-heading:nth-of-type(1) {
-    top: 17.5rem;
+    top: 15.5rem;
   }
 }
 
@@ -219,9 +219,9 @@
 @media (min-width: 320px) and (max-width: 419.99px) {
   .wp-block-columns:nth-child(4) .wp-block-column .wp-block-columns {
     top: 4.5rem;
-    left: 32%;
+    left: 31.4%;
     width: 8.5rem;
-    height: 40.5rem;
+    height: 44.5rem;
   }
 }
 
@@ -249,7 +249,7 @@
 .member-box {
   position: relative;
   width: 10.44rem; /* 167px; */
-  height: 15.81rem; /* 253px; */
+  height: 13.125rem; /* 253px; */
 
   display: var(--display-flex);
   flex-direction: var(--flex-vertical);
@@ -285,8 +285,9 @@
 
 @media (min-width: 320px) and (max-width: 781.99px) {
   .member-img {
-    width: 8.5rem;
-    height: 8.5rem;
+    width: 10rem;
+    height: auto;
+    margin-bottom: 0.75rem;
   }
 }
 
