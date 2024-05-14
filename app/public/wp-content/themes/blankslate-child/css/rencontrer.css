@@ -246,7 +246,7 @@
 }
 
 /* --- Détails (img, nom, fonctions) pour chaque membre --- */
-#member-box {
+.member-box {
   position: relative;
   width: 10.44rem; /* 167px; */
   height: 15.81rem; /* 253px; */

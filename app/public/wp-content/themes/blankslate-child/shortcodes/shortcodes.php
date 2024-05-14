@@ -194,7 +194,7 @@ function lequipe($atts)
     ob_start();
     if ($atts['src'] != "") {
     ?>
-        <div id="member-box">
+        <div class="member-box">
             <img class="member-img" src="<?= $atts['src'] ?>" alt="Image de membre">
             <p class="member-name"><?= $atts['member-name'] ?></p>
             <p><?= $atts['member-duty'] ?></p>

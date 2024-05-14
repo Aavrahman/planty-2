@@ -148,7 +148,7 @@ body {
 
 /* --- --- --- --- --- M E N U --- --- --- --- --- */
 #menu {                /* nav tag */
-    width: 32.25rem;  /* 516 px : (nous rencontrer:114 + 60 + Admin:46 + 60 + Commander:236) - 35,83% */
+    width: 34rem;  /* 516 px : (nous rencontrer:114 + 60 + Admin:46 + 60 + Commander:236) - 35,83% */
 }
 
 @media (min-width: 782px) and (max-width: 1439.99px) {
@@ -210,8 +210,8 @@ body {
 }
 
 .menu-visiteur-container {    /* menu div container */
-    position: relative;
-    margin-right: 0px;
+    justify-content: var(--display-flex);
+    justify-content: flex-end;
 }
 
 @media (min-width: 320px) and (max-width: 781.99px) {
@@ -233,8 +233,7 @@ body {
 #menu-header_menu,
 #menu-visiteur {                                                /* nav menu ul */
     display: var(--display-flex);
-    justify-content: var(--justify-between);
-    align-items: var(--align-center);
+    justify-content: flex-end;
 
     width: 100%;
 }
@@ -244,15 +243,16 @@ body {
         display: var(--display-flex);
         flex-direction: var(--flex-vertical);        /* vertical display for list */
         background-color: var(--body-bg-color);
-        height: 7.75rem;
+        height: auto;
     }
 }
 
 .menu-item {
     display: var(--display-flex);
-    justify-content: var(--justify-between);
+    justify-content: var(--justify-around);
     align-items: var(--align-center);
 
+    width: 25%;
     height: 5rem;                                      /* 50px; */
 }
 
@@ -270,7 +270,7 @@ body {
 
 @media (min-width: 320px) and (max-width: 781.99px) {
     #menu-visiteur .menu-item-213 {
-        border-top: solid 0px white;                  /* rendre invisible le trait de séparation de 50%width */
+        border-top: solid 0px white;  /* rendre invisible le trait de séparation de séparation */
     }
 }
 
@@ -292,31 +292,34 @@ body {
 .menu-item-213,
 .menu-item-214,
 .menu-item-215 {
-    width: 33.33%;
     display: var(--display-flex);
     justify-content: center;
 }
 
+.menu-item-213,
+.menu-item-214 {
+    width: 33%;
+}
+
 .menu-item-215 {
-    width: 45.73%;               /* 236px; */
+    width: 33%;               /* 236px; */
     height: 5rem;
     background-color: var(--menu-commander-color);
-
     justify-content: var(--justify-around);
 }
 
 @media (min-width: 782px) and (max-width: 1439.99px) {
-    .menu-item-155,
+    .menu-item-213,
     .menu-item-215 {
         width: 45.73%;
     }
 }
 
 @media (min-width: 320px) and (max-width: 781.99px) {
-    .menu-item-155,
+    .menu-item-213,
     .menu-item-215 {
         width: 100%;
-        height: 3.125rem;         /* 50px; */
+        height: 3.125rem;
     }
 }
 
@@ -325,9 +328,14 @@ body {
     width: 100%;                 /* 236px; */
 }
 
-.menu-item-155 span,
 .menu-item-215 span {
     color: var(--body-bg-color);
+}
+
+@media (min-width: 320px) and (max-width: 781.99px) {
+    .menu-item-213 {
+        text-align: center;
+    }
 }
 
 /* Changement couleur background menu 'Commander' et boutons */
