@@ -371,10 +371,21 @@
 @media (min-width: 782px) and (max-width: 1439.99px) {
   .image-produit {
     width: 46%;
-    height: 13.75rem;
     height: auto;
     margin: 0.75rem;
     background-size: cover;
+  }
+}
+
+@media (min-width: 782px) and (max-width: 1439.99px) {
+  :where(body .is-layout-flow)> :first-child:first-child {
+    margin-block-start: 0.75rem;
+  }
+}
+
+@media (min-width: 782px) and (max-width: 1439.99px) {
+  :where(body .is-layout-flow)> :last-child:last-child {
+    margin-block-end: 0.75rem;
   }
 }
 
@@ -539,7 +550,14 @@ div.entry-content>div:nth-child(8) {
 /* L'image */
 .feed-img {
   width: 7.893rem;    /* 126.28px;    */
-  height: 8.688rem;      /* 139px; */
+  height: auto;      /* 139px; */
+}
+
+@media (min-width: 782px) and (max-width: 1439.99px) {
+.feed-img {
+    width: 5.893rem;
+    height: 5.893rem;
+  }
 }
 
 /* La sous boite contenant le nom et le texte du commentaire */
@@ -549,6 +567,12 @@ div.entry-content>div:nth-child(8) {
   display: var(--display-flex);
   flex-direction: var(--flex-vertical);
   justify-content: var(--justify-around);
+}
+
+@media (min-width: 782px) and (max-width: 1439.99px) {
+.retour {
+    height: 6.688rem;
+  }
 }
 
 /* Le nom du client */

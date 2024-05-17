@@ -189,39 +189,54 @@
   }
 }
 
+/* Mobiles */
+@media (min-width: 320px) and (max-width: 781.99px) {
+  .wp-block-columns:nth-child(4) .wp-block-column .wp-block-columns {
+      top: 4.5rem;
+      width: 10rem;
+      height: 40.5rem;
+    }
+}
+
 @media (min-width: 650px) and (max-width: 781.99px) {
   .wp-block-columns:nth-child(4) .wp-block-column .wp-block-columns {
-    top: 4.5rem;
     left: 40%;
-    width: 8.5rem;
-    height: 40.5rem;
   }
 }
 
-@media (min-width: 520px) and (max-width: 649.99px) {
+@media (min-width: 577px) and (max-width: 649.99px) {
   .wp-block-columns:nth-child(4) .wp-block-column .wp-block-columns {
-    top: 4.5rem;
-    left: 39%;
-    width: 8.5rem;
-    height: 40.5rem;
+    left: 36%;
   }
 }
 
-@media (min-width: 420px) and (max-width: 519.99px) {
+@media (min-width: 441.01px) and (max-width: 576.99px) {
   .wp-block-columns:nth-child(4) .wp-block-column .wp-block-columns {
-    top: 4.5rem;
-    left: 35%;
-    width: 8.5rem;
-    height: 40.5rem;
+    left: 36%;
   }
 }
 
-@media (min-width: 320px) and (max-width: 419.99px) {
+@media (min-width: 391px) and (max-width: 440.99px) {
   .wp-block-columns:nth-child(4) .wp-block-column .wp-block-columns {
-    top: 4.5rem;
-    left: 31.4%;
-    width: 8.5rem;
-    height: 44.5rem;
+    left: 32%;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 390.99px) {
+  .wp-block-columns:nth-child(4) .wp-block-column .wp-block-columns {
+    left: 31%;
+  }
+}
+
+@media (min-width: 360.01px) and (max-width: 375.99px) {
+  .wp-block-columns:nth-child(4) .wp-block-column .wp-block-columns {
+    left: 29%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .wp-block-columns:nth-child(4) .wp-block-column .wp-block-columns {
+    left: 28.5%;
   }
 }
 
@@ -238,6 +253,7 @@
 @media (min-width: 320px) and (max-width: 781.99px) {
   .wp-block-columns:nth-child(4) .wp-block-column .wp-block-columns .wp-block-column {
     display: block;
+    width: 10rem;
   }
 }
 
@@ -248,8 +264,8 @@
 /* --- Détails (img, nom, fonctions) pour chaque membre --- */
 .member-box {
   position: relative;
-  width: 10.44rem; /* 167px; */
-  height: 13.125rem; /* 253px; */
+  width: 10rem; /* 167px; */
+  height: auto; /* 253px; */
 
   display: var(--display-flex);
   flex-direction: var(--flex-vertical);
