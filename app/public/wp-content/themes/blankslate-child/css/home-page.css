@@ -27,7 +27,7 @@
 
 @media (min-width: 782px) and (max-width: 1439.99px) {
   .entry-content h1 {
-    top: 2.5rem;
+    top: 3.5rem;
   }
 }
   
@@ -224,7 +224,7 @@
 
 @media (min-width: 782px) and (max-width: 1439.99px) {
   #accueil-presentation h2 {
-    top: 29.5%;
+    top: 23%;
     width: 100%;
   }
 }
@@ -245,7 +245,7 @@
 @media (min-width: 782px) and (max-width: 1439.99px) {
   #accueil-presentation p {
     width: 70%;
-    top: 34.5%;
+    top: 29%;
     left: 15%;
   }
 }
@@ -274,7 +274,7 @@
 
 @media (min-width: 782px) and (max-width: 1439.99px) {
   .entry-content h2:nth-child(4) {
-    top: 54rem;
+    top: 53rem;
     width: 100%;
   }
 }
@@ -295,7 +295,7 @@
 
 @media (min-width: 782px) and (max-width: 1439.99px) {
   .entry-content p:nth-child(5) {
-    top: 57.5rem;
+    top: 56rem;
     width: 100%;
   }
 }
@@ -464,7 +464,6 @@ div.entry-content>div:nth-child(8) {
   div.entry-content>div:nth-child(8) {
     top: 101.5rem;
     height: 31.25rem;
-    background-size: cover;
   }
 }
 
