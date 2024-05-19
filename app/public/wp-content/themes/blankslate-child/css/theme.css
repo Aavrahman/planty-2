@@ -210,7 +210,7 @@ body {
 }
 
 .menu-visiteur-container {    /* menu div container */
-    justify-content: var(--display-flex);
+    display: var(--display-flex);
     justify-content: flex-end;
 }
 
